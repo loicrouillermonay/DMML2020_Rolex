@@ -1,4 +1,4 @@
-# Data Mining and Machine Learning 2020 – Group project Rolex
+# Data Mining and Machine Learning 2020 – Team Rolex
 
 - Francis Ruckstuhl
 - Hanna Birbaum
@@ -51,11 +51,11 @@ Lastly, the Rolex team built several TF-IDF models using Logistic Regression, De
 ## 8. Submissions
 Finally, if the user wishes to do so, submission files can be created for the aforementioned models that were built in this notebook. These files can be submitted on AIcrowd.com
 
-# Reported accuracies
+### Reported accuracies
 
 <div style="text-align:center"><img src="https://github.com/loicrouillermonay/DMML2020_Rolex/blob/wrap-up/documents/plots/acc-plot.png" /></div>
 
-## Best submission
+#### Best submission
 
 **Submission n° 10 : 0.8222%** 
 - feature engineering with concatenation of country, location, keyword and text
@@ -64,7 +64,7 @@ Finally, if the user wishes to do so, submission files can be created for the af
 - PCA(n_components=0.8)
 - LogisticRegressionCV(max_iter=5000, solver='lbfgs', cv=10)
 
-## [B.] Previous submissions
+#### Previous submissions
 
 There are differences between the number of submissions made on the AiCrowd platform and what we are listing here because there have been some mistakes in submissions format, tricky mistakes on models with errors in the dataset given to the model in the training phase, and some innatention errors. It's a tiny insignificant detail and we just want to rationally clarify why it's like that.
 
