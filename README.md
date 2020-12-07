@@ -1,8 +1,8 @@
 # Data Mining and Machine Learning 2020 – Team Rolex
 
-- Francis Ruckstuhl
-- Hanna Birbaum
-- Loïc Rouiller-Monay
+- Francis Ruckstuhl ()
+- Hanna Birbaum ()
+- Loïc Rouiller-Monay (16-832-453)
 
 ## Table of Contents
 1. Introduction
