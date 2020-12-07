@@ -51,6 +51,107 @@ Lastly, the Rolex team built several TF-IDF models using Logistic Regression, De
 ## 8. Submissions
 Finally, if the user wishes to do so, submission files can be created for the aforementioned models that were built in this notebook. These files can be submitted on AIcrowd.com
 
-## Reported accuracies
+# Reported accuracies
 
-![alt text](https://github.com/loicrouillermonay/DMML2020_Rolex/blob/wrap-up/documents/plots/acc-plot.png)
+<div style="text-align:center"><img src="https://github.com/loicrouillermonay/DMML2020_Rolex/blob/wrap-up/documents/plots/acc-plot.png" /></div>
+
+## Best submission
+
+**Submission n° 10 : 0.8222%** 
+- feature engineering with concatenation of country, location, keyword and text
+- spacy_tokenizer v2*
+- TfidfVectorizer(ngram_range=(1, 3), tokenizer=spacy_tokenizer)
+- PCA(n_components=0.8)
+- LogisticRegressionCV(max_iter=5000, solver='lbfgs', cv=10)
+
+## [B.] Previous submissions
+
+There are differences between the number of submissions made on the AiCrowd platform and what we are listing here because there have been some mistakes in submissions format, tricky mistakes on models with errors in the dataset given to the model in the training phase, and some innatention errors. It's a tiny insignificant detail and we just want to rationally clarify why it's like that.
+
+**Submission n° 1 : 0.808%**
+- spacy_tokenizer v1*
+- TfidfVectorizer(sublinear_tf=True, min_df=5, norm='l2', encoding='latin-1', ngram_range=(1, 2), tokenizer=spacy_tokenizer)
+- LogisticRegression(solver='lbfgs', max_iter=1000)
+
+**Submission n° 2 : 0.818%**
+- feature engineering with num_chars, num_words, avg_words
+- Data cleaning with unicode literals, urls, link, accounts and hashtags
+- BOW
+- LogisticRegression(solver='lbfgs', max_iter=1000)
+
+**Submission n° 3 : 0.809%**
+- feature engineering with num_chars, num_words, avg_words, num_hashtags
+- Data cleaning with unicode literals, urls, link, author, hashtags, punctuations, lowercase
+- BOW
+- LogisticRegression(solver='lbfgs', max_iter=1000)
+
+**Submission n° 4 : 0.801%**
+- Data cleaning with unicode literals, urls, link, author, hashtags, punctuations, lowercase, lemmatize, stemming, stopwords
+- Doc2Vec(dm=0, vector_size=30, negative=6, hs=0, min_count=1, sample=0, workers=cores, epoch=300)
+- LogisticRegression(max_iter=1000, solver='lbfgs')
+
+**Submission n° 5 : 0.812%**
+- Data cleaning like submission n° 4 but without stemming 
+- Doc2Vec(dm=0, vector_size=30, negative=6, hs=0, min_count=1, sample=0, workers=cores, epoch=300)
+- LogisticRegression(max_iter=1000, solver='lbfgs')
+
+**Submission n° 6 : 0.817%** 
+- spacy_tokenizer v2*
+- TfidfVectorizer(ngram_range=(1, 2), tokenizer=spacy_tokenizer)
+- PCA(n_components=0.8)
+- LogisticRegressionCV(max_iter=5000, solver='lbfgs', cv=5)
+
+**Submission n° 7 : 0.82%** 
+- spacy_tokenizer v2*
+- TfidfVectorizer(ngram_range=(1, 3), tokenizer=spacy_tokenizer)
+- PCA(n_components=0.8)
+- LogisticRegressionCV(max_iter=5000, solver='lbfgs', cv=10)
+
+**Submission n° 8 : 0.81%** 
+- spacy_tokenizer v2*
+- TfidfVectorizer(ngram_range=(1, 5), tokenizer=spacy_tokenizer)
+- PCA(n_components=0.8)
+- LogisticRegressionCV(max_iter=5000, solver='lbfgs', cv=10)
+
+**Submission n° 9 : 0.818%** 
+- feature engineering with concatenation of country, location, keyword and text
+- spacy_tokenizer v2*
+- TfidfVectorizer(ngram_range=(1, 2), tokenizer=spacy_tokenizer)
+- PCA(n_components=0.8)
+- LogisticRegressionCV(max_iter=5000, solver='lbfgs', cv=10)
+
+**Submission n° 10 : 0.8222%** 
+- feature engineering with concatenation of country, location, keyword and text
+- spacy_tokenizer v2*
+- TfidfVectorizer(ngram_range=(1, 3), tokenizer=spacy_tokenizer)
+- PCA(n_components=0.8)
+- LogisticRegressionCV(max_iter=5000, solver='lbfgs', cv=10)
+
+**Submission n° 11 : 0.822%** 
+- feature engineering with concatenation of country, location, keyword and text
+- spacy_tokenizer v2*
+- TfidfVectorizer(ngram_range=(1, 6), tokenizer=spacy_tokenizer)
+- PCA(n_components=0.8)
+- LogisticRegressionCV(max_iter=5000, solver='lbfgs', cv=10)
+
+**Submission n° 11 : 0.816%** 
+- feature engineering with concatenation of country, location, keyword and text
+- spacy_tokenizer v2*
+- TfidfVectorizer(ngram_range=(1, 1), tokenizer=spacy_tokenizer)
+- LogisticRegressionCV(max_iter=5000, solver='lbfgs', cv=10)
+
+**Submission n° 12 : 0.809%** 
+- feature engineering with concatenation of country, location, keyword and text
+- spacy_tokenizer v2*
+- TfidfVectorizer(ngram_range=(1, 3), tokenizer=spacy_tokenizer)
+- LogisticRegressionCV(max_iter=5000, solver='lbfgs', cv=10)
+
+**Submission n° 13 : 0.806%** 
+- feature engineering with concatenation of country, location, keyword and text
+- spacy_tokenizer v2*
+- TfidfVectorizer(ngram_range=(1, 3), min_df = 2, max_df = 0.99, tokenizer=spacy_tokenizer)
+- LogisticRegressionCV(max_iter=5000, solver='lbfgs', cv=10)
+
+##### *Spacy_Tokenizers
+- *spacy_tokenizer v1 : lemmatize each token, convert each token into lowercase and remove stopwords*
+- *spacy_tokenizer v2 : the one in Chapter 6 of the current jupyter notebook*
