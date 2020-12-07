@@ -152,6 +152,6 @@ Finally, if the user wishes to do so, submission files can be created for the af
 - TfidfVectorizer(ngram_range=(1, 3), min_df = 2, max_df = 0.99, tokenizer=spacy_tokenizer)
 - LogisticRegressionCV(max_iter=5000, solver='lbfgs', cv=10)
 
-##### *Spacy_Tokenizers
+##### *Spacy_Tokenizers versions
 - *spacy_tokenizer v1 : lemmatize each token, convert each token into lowercase and remove stopwords*
 - *spacy_tokenizer v2 : the one in Chapter 6 of the current jupyter notebook*
