@@ -50,3 +50,7 @@ Lastly, the Rolex team built several TF-IDF models using Logistic Regression, De
 
 ## 8. Submissions
 Finally, if the user wishes to do so, submission files can be created for the aforementioned models that were built in this notebook. These files can be submitted on AIcrowd.com
+
+## Reported accuracies
+
+![alt text](https://github.com/loicrouillermonay/DMML2020_Rolex/blob/wrap-up/documents/plots/acc-plot.png)
