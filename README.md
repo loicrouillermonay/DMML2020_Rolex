@@ -26,7 +26,7 @@ Real or Not? NLP with Disaster Tweets: Machine Learning model that can predict w
 ### Goal
 The goal of this group project is to build models that can predict whether or not a tweet it about a disaster. Our team aims to try out different models with a vast variety of different parameters in order to find the best model that obtains a high accuracy score.
 
-## Our approach
+### Our approach
 For the final group project, we proceeded as follows: In order to exploit the full computational capacity available, we relied on our own computer performance by using Jupyter Notebook (this allowed us to build models that would crash on Google Colab). Once we all completed that initial setup, our team members split up the work to be done and created different branches on GitHub to work on their respective task. Being assigned with a specific type of algorithm, each member tried to build a model and maximize its accuracy score. During this process, the different parameters used to train the models and the respective results that were achieved were added to an Excel table. In addition, we organized several meetings per week in order to keep the others informed on our progress and to exchange our current results. Finally, the different branches were merged into one finalized notebook. 
 
 ## 2. Initial Setup
