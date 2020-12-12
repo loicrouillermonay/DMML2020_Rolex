@@ -6,7 +6,7 @@
 
 ## Video presentation
 
-[![DM&ML2020 – Team Rolex](https://i3.ytimg.com/vi/dBPvnDJUlF8/maxresdefault.jpg)](https://youtu.be/dBPvnDJUlF8 "DM&ML2020 – Team Rolex")
+[![DM&ML2020 – Team Rolex](https://i.ytimg.com/vi/dBPvnDJUlF8/maxresdefault.jpg)](https://youtu.be/dBPvnDJUlF8 "DM&ML2020 – Team Rolex")
 
 
 ## Table of Contents
