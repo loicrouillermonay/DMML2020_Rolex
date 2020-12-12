@@ -4,6 +4,10 @@
 - Hanna Birbaum ()
 - Loïc Rouiller-Monay (16-832-453)
 
+## Video presentation
+
+[![DM&ML2020 – Team Rolex](https://i3.ytimg.com/vi/dBPvnDJUlF8/maxresdefault.jpg)](https://youtu.be/dBPvnDJUlF8 "DM&ML2020 – Team Rolex")
+
 ## Table of Contents
 1. Introduction
 2. Initial Setup 
