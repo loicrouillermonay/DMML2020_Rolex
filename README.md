@@ -8,6 +8,10 @@
 
 [![DM&ML2020 – Team Rolex](https://i3.ytimg.com/vi/dBPvnDJUlF8/maxresdefault.jpg)](https://youtu.be/dBPvnDJUlF8 "DM&ML2020 – Team Rolex")
 
+<div align="center">
+  <a href="https://youtu.be/dBPvnDJUlF8"><img src="https://i3.ytimg.com/vi/dBPvnDJUlF8/maxresdefault.jpg" alt="DM&ML2020 – Team Rolex"></a>
+</div>
+
 ## Table of Contents
 1. Introduction
 2. Initial Setup 
